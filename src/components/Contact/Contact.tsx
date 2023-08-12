@@ -4,7 +4,7 @@ import { RiGithubFill, RiInstagramFill, RiLinkedinFill, RiMailAddFill, RiMailFil
 
 function Contact() {
     return (
-        <Box id="contact_me" w="100%" bg="#3f51b5" p="4" color="white">
+        <Box id="contact_me" w="100%" bg="#004643" p="4" color="white">
         <Center h="100%">
             <Box w="90%">
             <Text fontSize="5xl" fontWeight="bold" textAlign="center">

@@ -108,7 +108,7 @@ const ProjectsData = [
         color: '#FF9900',
       },
     ],
-    image: 'https://i.imgur.com/z4vV672.png',
+    image: 'https://i.imgur.com/V8wVfeX.png',
     github: 'https://github.com/poorvi-vaish/rce-frontend',
     demo: '',
     tag: '',
@@ -134,13 +134,39 @@ const ProjectsData = [
         color: '#319795',
       }
     ],
-    image: 'https://i.imgur.com/2Q3Q4ZP.png',
+    image: 'https://i.imgur.com/JK1f0vs.png',
     github: '',
-    demo: '<Link>',
+    demo: 'https://portfolio-poorvi-vaish.vercel.app/',
     tag: '',
   },
   {
     id: 4,
+    title: 'Space Blogs',
+    description: 'A website for all the space blogs built using React.js and Tailwind CSS.',
+    tech: [
+      {
+        name: 'TypeScript',
+        icon: SiTypescript,
+        color: '#007ACC',
+      },
+      {
+        name: 'React',
+        icon: SiReact,
+        color: '#61DAFB',
+      },
+      {
+        name: 'TailwindCSS',
+        icon: SiTailwindcss,
+        color: '#06B6D4',
+      },
+    ],
+    image: 'https://i.imgur.com/8YERd81.png',
+    github: '',
+    demo: 'https://space-blogs.vercel.app/',
+    tag: '',
+  },
+  {
+    id: 5,
     title: 'Eth-Profile',
     description: 'The webpage where fusion of code and creativity converge of a users ethereum profile.',
     tech: [
@@ -154,6 +180,11 @@ const ProjectsData = [
         icon: SiReact,
         color: '#61DAFB',
     },
+    {
+      name: 'TailwindCSS',
+      icon: SiTailwindcss,
+      color: '#06B6D4',
+    },
   ],
     image: 'https://i.imgur.com/gNrE31I.png',
     github: '',
@@ -161,7 +192,7 @@ const ProjectsData = [
     tag: '',
   },
   {
-    id: 5,
+    id: 6,
     title: 'DSA',
     description:
       "I'm currently focusing on learning Data Structures and Algorithms to improve and hone my problem solving skills",

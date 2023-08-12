@@ -9,7 +9,7 @@ import Contact from "../components/Contact/Contact"
 import Projects from "../components/Projects/Projects"
 
 
-export const Head: HeadFC = () => (<><title>Portfolio - Poorvi Vaish</title><link rel="icon" href="https://i.imgur.com/t2QofF3.png" /></>
+export const Head: HeadFC = () => (<><title>Portfolio - Poorvi Vaish</title><link rel="icon" href="https://i.imgur.com/xf3tZD3.jpg" /></>
 
 )
 

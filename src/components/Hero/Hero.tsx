@@ -8,31 +8,31 @@ function Hero() {
     return (
         <Flex 
             mt={{ base: `${NAVBAR_HEIGHT_MOBILE}px`, lg: `${NAVBAR_HEIGHT}px` }}
-            bg="#ecf1fd " 
+            bg="#abd1c6" 
             w="100%"
             p={10} 
             justifyContent="center"
             alignItems="center"
-            color="#3f4658"
+            color="#001e1d"
             direction={{ base: 'column-reverse', lg: 'row' }}
             id="home"
             gap={20}
         >
-            <Flex w="1/2" direction="column" fontWeight="bold" textAlign="left" >
+            <Flex w="1/2" direction="column" fontWeight="bold" textAlign="left" paddingY={150}>
                 <Text fontSize="3xl">
                     - Hello 👋🏻
                 </Text>
                 <Text fontSize="6xl">
-                    I'm <span style={{color: "#3f51b5", marginRight:"16px"}}>Poorvi</span>
+                    I'm <span style={{color: "#e16162", marginRight:"16px"}}>Poorvi</span>
                     Vaish
                 </Text>
                 <Text> Full-Stack Web Developer based in India</Text>
                 <a href="https://drive.google.com/file/d/1CWyItbyRHNGJjk3YJBpY8xN_yh4JBW3C/view?usp=sharing" target='_blank'>
-                <Button mt="10" alignSelf="left" w="48" bg="#3f51b5" color="white" variant="solid" _hover={{bg: "#3148C9"}}> Resume</Button>
+                <Button mt="10" alignSelf="left" w="48" bg="#e16162" color="white" variant="solid" _hover={{bg: "#004643"}}> Resume</Button>
                 </a>
             </Flex>
             <Flex w="1/2" alignItems="center" >
-                <Image src = "https://i.imgur.com/t2QofF3.png" alt="hero" />
+                <Image src = "https://i.imgur.com/xf3tZD3.jpg" alt="hero" borderRadius='full'/>
             </Flex>
         </Flex>
     )

@@ -15,8 +15,8 @@ const NavbarLinks = [
     value: 'about_me',
   },
   {
-    name: 'Learnings',
-    value: 'learnings',
+    name: 'Projects',
+    value: 'projects',
   },
   {
     name: 'Contact ',
@@ -51,11 +51,11 @@ function NavItems({ isOpen, setIsOpen }: any) {
           key={link.name}
           fontSize="md"
           fontWeight='medium'
-          color={active === link.value ? '#3f51b5' : 'gray'}
+          color={active === link.value ? '#fffffe' : '#abd1c6'}
           cursor="pointer"
-          _hover={{ color: '#3f51b5' }}
+          _hover={{ color: '#fffffe' }}
           onClick={() => handleScroll(link.value)}
-          borderBottom={active === link.value ? '2px solid #3f51b5' : 'none'}
+          borderBottom={active === link.value ? '2px solid #fffffe' : 'none'}
         >
           {link.name}
         </Text>

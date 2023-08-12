@@ -31,7 +31,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 
 interface Skill {
   name: string;
-  icon: React.ComponentType<{ size?: string | number; color?: string; title?: string }>;
+  icon: React.ComponentType<{ size?: string | number; color?: string; title?: string; border?: string }>;
   color: string;
 }
 

@@ -23,7 +23,7 @@ function Navbar() {
         height={{ base: `${NAVBAR_HEIGHT_MOBILE}px`, lg: `${NAVBAR_HEIGHT}px` }}
         py={7}
         px={{ base: '10', lg: '5', xl: '20' }}
-        bg="#ecf1fd"
+        bg="#004643"
         position="fixed"
         id="navbar"
       >

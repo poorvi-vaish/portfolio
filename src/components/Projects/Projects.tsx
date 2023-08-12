@@ -7,14 +7,14 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
-    <Flex direction="column" alignItems="center" justify="center"  bg="#ecf1fd " 
+    <Flex direction="column" alignItems="center" justify="center"  bg="#e8e4e6" 
         p="10"
-        id="learnings"
+        id="projects"
         zIndex={1}
         >
-    <Flex w="80%" gap= "4" align="center" color="#3f51b5">
+    <Flex w="80%" gap= "4" align="center" color="#e16162">
         <Text fontWeight="bold" fontSize="3xl" w={{base:"100%",xl:"30%"}}>
-          My Learnings
+          My Projects/ Learnings
         </Text>
         <Divider borderWidth="thin" border="1px" display={{base:"none", lg:"block"}}/>
       </Flex>
@@ -22,7 +22,7 @@ function Projects() {
     {
         ProjectsData.map((project, index) => (
           <Flex w="100%" gap="20" justify="space-between" align="center" key={project.id} direction={{ base: "column" , lg:`${index % 2 === 1 ? 'row-reverse' : 'row'}`}}>
-          <Box width={{base:500, lg:1000}} height={300} aspectRatio="square" borderRadius="2xl" boxShadow="md" _hover={{boxShadow:"10px 10px 37px -3px rgba(63,81,181,1)"}} cursor="pointer">
+          <Box width={{base:500, lg:1000}} height={300} aspectRatio="square" borderRadius="2xl" boxShadow="md" _hover={{boxShadow:"10px 10px 37px -3px #004643"}} cursor="pointer">
             <Image
               src={project.image}
               alt={project.image}
@@ -56,10 +56,10 @@ function Projects() {
             }
             <Flex direction="row" justifyContent="center" alignItems="center" gap="4" zIndex={1} w="100%">
                 {project.github && <Link href={project.github} target="_blank">
-                  <Button mt="10" alignSelf="left" w="56" bg="#3f51b5" color="white" variant="solid" _hover={{bg: "#3148C9", boxShadow:"lg"}} gap="2"> View Project <SiGithub color="white"/></Button></Link>}
+                  <Button mt="10" alignSelf="left" w="56" bg="#e16162" color="white" variant="solid" _hover={{bg: "#004643", boxShadow:"lg"}} gap="2"> View Project <SiGithub color="white"/></Button></Link>}
                   {
                     project.demo && <Link href={project.demo} target="_blank">
-                    <Button mt="10" alignSelf="left" w="56" bg="#3f51b5" color="white" variant="solid" _hover={{bg: "#3148C9", boxShadow:"lg"}} gap="2"> Visit <FaExternalLinkAlt/></Button></Link>
+                    <Button mt="10" alignSelf="left" w="56" bg="#e16162" color="white" variant="solid" _hover={{bg: "#004643", boxShadow:"lg"}} gap="2"> Visit <FaExternalLinkAlt/></Button></Link>
                   }
             </Flex>
            
